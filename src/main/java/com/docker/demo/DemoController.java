@@ -19,6 +19,10 @@ private final EmailSenderService emailService;
     public String demoMethod(){
         return "This is demo for docker" ;
     }
+    @GetMapping("/confirmation")
+    public String demoSecondMethod(){
+        return "This is demo for CI CD PipeLines" ;
+    }
     @PostMapping("/sendPlainTextEmail")
     public ResponseEntity<String> sendPlainTextEmail(@RequestBody EmailRequest emailRequest) {
         try {
