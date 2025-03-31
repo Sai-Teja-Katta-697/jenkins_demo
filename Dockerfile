@@ -18,7 +18,7 @@ RUN ./gradlew build --no-daemon || return 0
 COPY . /app
 
 # Build the application
-# RUN ./gradlew build --no-daemon
+RUN chmod +x gradlew && ./gradlew build --no-daemon || return 0
 
 # Copy the jar file to the container
 COPY build/libs/*.jar app.jar
