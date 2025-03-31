@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.docker.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-26T16:17:30.449Z" hostname="DESKTOP-ORJVMCL" time="0.615">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.docker.demo.DemoApplicationTests" time="0.615"/>
+  <system-out><![CDATA[21:47:28.201 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.docker.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:47:28.305 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.docker.demo.DemoApplication for test class com.docker.demo.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-03-26T21:47:28.655+05:30  INFO [demo,,] 9808 --- [demo] [    Test worker] [                                                 ] com.docker.demo.DemoApplicationTests     : Starting DemoApplicationTests using Java 17.0.12 with PID 9808 (started by Sai Teja in D:\SaiTeja\Spring_Microservices\demo)
+2025-03-26T21:47:28.658+05:30  INFO [demo,,] 9808 --- [demo] [    Test worker] [                                                 ] com.docker.demo.DemoApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-03-26T21:47:30.342+05:30  INFO [demo,,] 9808 --- [demo] [    Test worker] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-03-26T21:47:30.395+05:30  INFO [demo,,] 9808 --- [demo] [    Test worker] [                                                 ] com.docker.demo.DemoApplicationTests     : Started DemoApplicationTests in 1.972 seconds (process running for 3.074)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
