@@ -36,4 +36,5 @@ tasks.named('test') {
 }
 bootJar {
     mainClass = 'com.docker.demo.DemoApplication'
+    archiveFileName = 'demodocker.jar'
 }
