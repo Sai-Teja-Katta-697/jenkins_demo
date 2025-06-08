@@ -9,20 +9,22 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-private final EmailSenderService emailService;
+    private final EmailSenderService emailService;
 
     public DemoController(EmailSenderService emailService) {
         this.emailService = emailService;
     }
 
     @GetMapping("/")
-    public String demoMethod(){
-        return "This is demo for docker" ;
+    public String demoMethod() {
+        return "This is demo for docker";
     }
+
     @GetMapping("/confirmation")
-    public String demoSecondMethod(){
-        return "This is demo for CI CD PipeLines" ;
+    public String demoSecondMethod() {
+        return "This is demo for CI CD PipeLines";
     }
+
     @PostMapping("/sendPlainTextEmail")
     public ResponseEntity<String> sendPlainTextEmail(@RequestBody EmailRequest emailRequest) {
         try {
