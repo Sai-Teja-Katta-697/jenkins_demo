@@ -17,8 +17,6 @@ public class DemoController {
 
     @GetMapping("/")
     public String demoMethod() {
-
-        throw new RuntimeException("Intentional failure to stop the build");
         return "This is demo for docker";
     }
 
